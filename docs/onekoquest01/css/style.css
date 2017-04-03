@@ -26,6 +26,7 @@ body {
     table-layout: fixed;
     text-align: center;
     width: 100%;
+    padding-left:0px;
 }
 .table-ul li {
     display: table-cell;
