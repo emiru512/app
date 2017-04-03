@@ -1,0 +1,44 @@
+body {
+	/* background: url(../img/bg0.png) ; */
+	background-color: #000;
+	color: #fefefe;
+	
+	word-wrap: break-word; 
+	text-align: center;
+	min-width: 960px;
+	
+	font-size: 16px ; font-size: 1.6rem ;
+	line-height: 1.4;
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif ;
+}
+
+.fit-image {
+    width:100%;
+    height:auto;
+    margin: 0px;
+    vertical-align: bottom;
+}
+
+.table-ul {
+    background-color: #000;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+.table-ul li {
+    display: table-cell;
+    vertical-align: middle;
+    
+    border: medium solid #fefefe;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.table-ul li a {
+    color: #fefefe;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+}
